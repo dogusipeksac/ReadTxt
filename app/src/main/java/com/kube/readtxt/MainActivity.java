@@ -29,7 +29,6 @@ import java.util.logging.Logger;
 public class MainActivity extends AppCompatActivity {
     ArrayList<People> peopleArrayList;
     ArrayList<People> newPeopleArrayListForMonitoring;
-    ArrayList<People> tempPeopleList;
     ArrayList<Food> foodArrayList;
     ArrayList<Sport> sportArrayList;
     ArrayList<String> monitoringArrayList;
@@ -55,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         sportArrayList = new ArrayList<>();
         monitoringArrayList = new ArrayList<>();
         newPeopleArrayListForMonitoring = new ArrayList<>();
-        tempPeopleList = new ArrayList<>();
     }
 
     public void upgradeLists() {
