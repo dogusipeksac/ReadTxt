@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
     int currentYear = 2022;
     int takenCalorie = 0;
     int burnedCalorie = 0;
-    String line = "";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -155,7 +153,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                         monitoringArrayList.add("*************");
 
-
                     } else if (mLine.contains("printWarn")) {
                        if (newPeopleArrayListForMonitoring!=null&&newPeopleArrayListForMonitoring.size()!=0){
                            for (int i=0;i<newPeopleArrayListForMonitoring.size();i++){
@@ -166,8 +163,6 @@ public class MainActivity extends AppCompatActivity {
                            }
 
                        }
-
-
                     } else {
                         //process line
                         String[] data = mLine.split("\\s+");
